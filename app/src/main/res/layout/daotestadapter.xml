@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/dianliangxxxxx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="设备电量 :"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/daotext1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/dianliangxxxxx"
+        android:background="#f90" />
+
+    <TextView
+        android:id="@+id/shijianxxxxxx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dianliangxxxxx"
+        android:text="时间 :"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/daotext2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/daotext1"
+        android:layout_toRightOf="@+id/shijianxxxxxx"
+        android:background="#f89" />
+</RelativeLayout>

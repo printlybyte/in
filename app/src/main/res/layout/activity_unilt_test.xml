@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.watch.in.Tets.UniltTest">
+
+    <Button
+        android:id="@+id/unilttest_btn_test_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="phoneinfo" />
+
+    <ScrollView
+        android:id="@+id/unilttest_scrlview_test_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/unilttest_btn_test_info">
+
+        <TextView
+            android:id="@+id/unilttest_txt_test_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </ScrollView>
+</RelativeLayout>
